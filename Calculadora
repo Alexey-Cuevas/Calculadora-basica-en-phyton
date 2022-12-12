@@ -1,0 +1,51 @@
+number1=int(input("Insert one number:"))
+number2=int(input("Insert other number:"))
+
+election = 0 
+
+while election != 6:
+    print(
+        """ 
+        Indicate the operation:
+        
+        1) Addition
+        2) Subtraction
+        3) Multiplication
+        4) Division
+        5) Change of values
+        6) Leave 
+        """)
+    election = int(input())
+    
+    if election == 1:
+        print(" ")
+        print("Resultant: ", number1, "+", number2, "=",number1+number2)
+
+
+    if election == 2:
+        print(" ")
+        print("Resultant: ", number1, "-", number2, "=",number1-number2)
+
+
+    if election == 3:
+        print(" ")
+        print("Resultant: ", number1, "*", number2, "=",number1*number2)    
+
+    if election == 4:
+        print(" ")
+        print("Resultant: ", number1, "/", number2, "=",number1/number2)
+
+
+    if election == 5:
+        number1=int(input("Insert one number:"))
+        number2=int(input("Insert other number:"))
+    if election == 6:
+        print(" ")
+        print("Resultant: ", number1, "+", number2, "=",number1+number2)
+
+
+
+
+
+    if election == 6:
+        print("Tanks for using Calculator created for Alexey ")
